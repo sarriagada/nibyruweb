@@ -1,0 +1,95 @@
+body{
+  padding:0;
+  margin:0;
+  color: #fff;
+  height: 100%;
+  background: black url(bg.jpg) center center no-repeat;
+  background-size:100%;
+  background-attachment: fixed;
+}
+
+.contenedor{
+  border-radius: 10px 10px 0 0;
+  background: rgba(0, 0, 0, 0.7);
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:2;
+  width:80%;
+  font-family:arial;
+  opacity:0;
+  left:12%;
+  overflow:hidden;
+  height:100%;
+}
+
+.nibyru{
+  position: fixed;
+  top: 1em;
+  width: 13em;
+  height: 4.6em;
+  background: url(logo.png) no-repeat;
+  background-size: 100%;
+}
+
+h2{
+  top:40%;
+  font-size: 40px;
+}
+
+nav{
+  position:fixed;
+  left:0;
+  top:30%;
+  z-index:10;
+}
+
+nav ul{
+  overflow:auto;
+  list-style:none;
+  margin:0;
+  padding: 0;
+}
+
+nav li{
+  margin-right: 2em;
+  margin-bottom: 5px;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in;
+  border-radius: 0 5px 5px 0;
+  background: rgba(0, 0, 0, 0.44);
+  height: 55px;
+  line-height: 35px;
+  -webkit-transform:translate(-115px);
+}
+
+nav li:hover{
+  border-right: 1px solid rgb(0, 114, 109);
+  box-sizing: border-box;
+  -webkit-transform:translate(0px);
+}
+
+nav .icon{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 18px;
+  width: 1em;
+  height: 1em;
+}
+
+nav a{
+  color:#fff;
+  font-family:Audiowide;
+  display:block;
+  padding:10px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size: 1.2em;
+}
+
+nav li:hover a{
+  opacity: 1;
+  text-shadow: 0px 0px 20px rgba(0, 200, 220, 1);
+}
