@@ -1,4 +1,4 @@
-doctype
+doctype html
 html
   head
     title Nibyruweb
@@ -10,26 +10,28 @@ html
     a href="#"
       .nibyru
     = render 'shared/nav'
-    = yield
+    .container
+      = yield
 
-javascript:
-  $(function() {
-    $('#mindscape').smart3d();
-  });
 
-  $(".btn-inicio, .btn-servicios, .btn-contacto, .btn-nosotros, .btn-portfolio").on("click", function(){
-    $(".contenedor").css({
-      "opacity": 0,
-      "top": "101%"
+  javascript:
+    $(function() {
+      $('#mindscape').smart3d();
     });
-    if($(this).hasClass("btn-inicio")){ target = $("#inicio"); }
-    if($(this).hasClass("btn-servicios")){ target = $("#servicios"); }
-    if($(this).hasClass("btn-nosotros")){ target = $("#nosotros"); }
-    if($(this).hasClass("btn-portfolio")){ target = $("#portfolio"); }
-    if($(this).hasClass("btn-contacto")){ target = $("#contacto"); }
-    target.css({
-      "top": "15%",
-      "opacity": 1,
-      "background": "rgba(0, 0, 0, 0.4)"
+
+    $(".btn-inicio, .btn-servicios, .btn-contacto, .btn-nosotros, .btn-portfolio").on("click", function(){
+      $(".contenedor").css({
+        "opacity": 0,
+        "top": "101%"
+      });
+      if($(this).hasClass("btn-inicio")){ target = $("#inicio"); }
+      if($(this).hasClass("btn-servicios")){ target = $("#servicios"); }
+      if($(this).hasClass("btn-nosotros")){ target = $("#nosotros"); }
+      if($(this).hasClass("btn-portfolio")){ target = $("#portfolio"); }
+      if($(this).hasClass("btn-contacto")){ target = $("#contacto"); }
+      target.css({
+        "top": "15%",
+        "opacity": 1,
+        "background": "rgba(0, 0, 0, 0.4)"
+      })
     })
-  })

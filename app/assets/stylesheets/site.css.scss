@@ -2,15 +2,17 @@ body{
   padding:0;
   margin:0;
   color: #fff;
-  height: 100%;
   background: black url(bg.jpg) center center no-repeat;
   background-size:100%;
   background-attachment: fixed;
+  max-height: 100%;
+  overflow: hidden;
 }
-
+.container{
+  overflow:hidden;
+}
 .contenedor{
   border-radius: 10px 10px 0 0;
-  background: rgba(0, 0, 0, 0.7);
   margin:0;
   padding:0;
   position: absolute;
@@ -46,7 +48,7 @@ nav{
 }
 
 nav ul{
-  overflow:auto;
+  overflow:hidden;
   list-style:none;
   margin:0;
   padding: 0;
@@ -62,7 +64,7 @@ nav li{
   background: rgba(0, 0, 0, 0.44);
   height: 55px;
   line-height: 35px;
-  -webkit-transform:translate(-115px);
+  -webkit-transform:translate(-120px);
   border-right: 1px solid rgb(0, 114, 109);
 }
 
@@ -82,7 +84,7 @@ nav .icon{
 
 nav a{
   color:#fff;
-  font-family:Audiowide;
+  font-family:Audiowide, Arial;
   display:block;
   padding:10px;
   text-decoration:none;
@@ -98,7 +100,7 @@ nav li:hover a{
 // parallax
 #mindscape {
     width: 80%;
-    height: 90%;
+    height: 759px;
     overflow: hidden;
     margin: auto;
 }
@@ -136,4 +138,32 @@ nav li:hover a{
 }
 #servicios, #inicio, #portfolio, #nosotros, #contacto{
   -webkit-transition: all 0.5s ease;
+}
+
+/* boques servicios*/
+#servicios{
+  .algo{ text-align: center; }
+  .bloques {
+    display: inline-block;
+    width: 28%;
+    height: 150px;
+    border: 2px solid;
+    border-radius: 0 15px 0 15px;
+    padding: 15px;
+    margin: 5px;
+    vertical-align: top;
+    /*background: url(panal.jpg);*/
+    background: rgba(0,0,0,0.8);
+    text-align: left;
+  }
+  h2, h3{
+    font-family:Audiowide, Arial;
+  }
+  .icon {
+    font-size: 5em;
+    float: left;
+    margin-right: 15px;
+    height: 100%;
+    padding-top: 15px;
+  }
 }
