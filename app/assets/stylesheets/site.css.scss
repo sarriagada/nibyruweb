@@ -63,10 +63,10 @@ nav li{
   height: 55px;
   line-height: 35px;
   -webkit-transform:translate(-115px);
+  border-right: 1px solid rgb(0, 114, 109);
 }
 
 nav li:hover{
-  border-right: 1px solid rgb(0, 114, 109);
   box-sizing: border-box;
   -webkit-transform:translate(0px);
 }
@@ -111,28 +111,29 @@ nav li:hover a{
   width: 200px;
 }
 .planet1 img {
-  width: 300px;
-  left: 66%;
+  width: 27%;
+  left: 48%;
   position: absolute;
-  top: 193%;
+  top: 135%;
 }
 .planet2 img {
-  width: 200px;
-  left: 34%;
+  width: 20%;
+  left: 22%;
   position: absolute;
-  top: 392%;
+  top: 243%;
 }
 .planet3 img {
-  width: 200px;
-  left: 70%;
+  width: 17%;
+  left: 53%;
   position: absolute;
+  top: 10%;
 }
 .planet4 img {
-  width: 190px;
-  left: 115%;
+  width: 18%;
+  left: 79%;
   position: absolute;
-  top: 390%;
+  top: 249%;
 }
-#servicios{
+#servicios, #inicio, #portfolio, #nosotros, #contacto{
   -webkit-transition: all 0.5s ease;
 }
