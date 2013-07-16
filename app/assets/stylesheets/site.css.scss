@@ -168,14 +168,14 @@ nav li:hover a{
   }
 }
 //Portfolio
-#portfolio{  
+#portfolio{
+  h2{font-family:Audiowide, Arial;}
+    
   #col1, #col2{
     display: inline-block;
   }
   #col1{
-    // background:blue;
     width: 70%;
-    // height: 70%;
     img{
       top: 0px;
       position: absolute;
@@ -183,7 +183,24 @@ nav li:hover a{
       height: 21em;
       margin-bottom: 1em;
     }
+    .tv{
+      span{
+        display: block;
+        margin: 43px 0px 0px 35px;
+        height: 242px;
+        width: 398px;
+        background: blue;
+      }
+    }
     .tablet{
+      span{
+        position: absolute;
+        display: block;
+        margin: -110px 0px 0px 421px;
+        width: 208px;
+        height: 141px;
+        background: red;
+      }
       img{
         width: 25%;
         height: 12em;
@@ -191,7 +208,15 @@ nav li:hover a{
         left: 390px;
       }
     }
-    .iph{
+    .cel{
+      span{
+        position: absolute;
+        display: block;
+        margin: -51px 0px 0px 641px;
+        width: 66px;
+        height: 92px;
+        background: grey;
+      }
       img{
         width: 8%;
         height: 9em;
@@ -201,6 +226,8 @@ nav li:hover a{
     }
   }
   #col2{
+    position:absolute;
+    text-align: center;
     background:green;
     width: 30%;
   }
