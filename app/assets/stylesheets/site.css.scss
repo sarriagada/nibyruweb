@@ -167,3 +167,46 @@ nav li:hover a{
     padding-top: 15px;
   }
 }
+
+#portfolio{  
+  #col1, #col2{
+    display: inline-block;
+  }
+  #col1{
+    // background:blue;
+    width: 70%;
+    // height: 70%;
+    img{
+      top: 0px;
+      position: absolute;
+      width: 44%;
+      height: 21em;
+      margin-bottom: 1em;
+    }
+    .tablet{
+      img{
+        width: 25%;
+        height: 12em;
+        top: 150px;
+        left: 390px;
+      }
+    }
+    .iph{
+      img{
+        width: 8%;
+        height: 9em;
+        top: 210px;
+        left: 630px;
+      }
+    }
+  }
+  #col2{
+    background:green;
+    width: 30%;
+  }
+  #slider{
+    background: yellow;
+    width: 100%;
+    bottom: 0px;
+  }
+}
