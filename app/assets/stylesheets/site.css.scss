@@ -174,67 +174,74 @@ nav li:hover a{
   #col1, #col2{
     display: inline-block;
   }
+  .pc, .tablet, .cel{
+    position: absolute;    
+  }
   #col1{
     width: 70%;
-    img{
-      top: 0px;
-      position: absolute;
-      width: 44%;
-      height: 21em;
-      margin-bottom: 1em;
-    }
     .pc{
+      top: 0;
+      left: 0;
+      display: block;
+      width: 50%;
+      img{
+        width: 100%;
+        height: auto;
+      }
       span{
-        display: block;
-        margin: 43px 0px 0px 35px;
-        height: 242px;
-        width: 398px;
-        background: blue;
+        position: absolute;
+        width: 83%;
+        height: 72%;
+        top: 13%;
+        left: 7%;
       }
     }
     .tablet{
+      top: 20%;
+      left: 40%;
+      display: block;
+      width: 25%;
+      img{
+        width: 100%;
+        height: auto;
+      }
       span{
         position: absolute;
-        display: block;
-        margin: -110px 0px 0px 421px;
-        width: 208px;
-        height: 141px;
-        background: red;
-      }
-      img{
-        width: 25%;
-        height: 12em;
-        top: 150px;
-        left: 390px;
+        width: 77%;
+        height: 72%;
+        top: 13%;
+        left: 11%;
       }
     }
     .cel{
+      top: 28%;
+      left: 62%;
+      display: block;
+      width: 9%;
+      img{
+        height: auto;
+        width: 100%;
+      }
       span{
         position: absolute;
-        display: block;
-        margin: -51px 0px 0px 641px;
-        width: 66px;
-        height: 92px;
-        background: grey;
-      }
-      img{
-        width: 8%;
-        height: 9em;
-        top: 210px;
-        left: 630px;
+        width: 72%;
+        height: 61%;
+        top: 17%;
+        left: 14%;
       }
     }
   }
   #col2{
     position:absolute;
     text-align: center;
-    background:green;
-    width: 30%;
+    width: 29%;
   }
   #slider{
-    background: yellow;
-    width: 100%;
-    bottom: 0px;
+    position: absolute;
+    border: 2px solid white;
+    width: 99%;
+    height: 28%;
+    top: 55%;
   }
 }
 /* nosotros */
