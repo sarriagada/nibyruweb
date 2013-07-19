@@ -66,12 +66,16 @@ nav li{
   height: 55px;
   line-height: 35px;
   -webkit-transform:translate(-120px);
+  -moz-transform:translate(-120px);
+  -o-transform:translate(-120px);
   border-right: 1px solid rgb(0, 114, 109);
 }
 
 nav li:hover{
   box-sizing: border-box;
   -webkit-transform:translate(0px);
+  -moz-transform:translate(0px);
+  -o-transform:translate(0px);
 }
 
 nav .icon{
@@ -139,9 +143,11 @@ nav li:hover a{
 }
 #servicios, #inicio, #portfolio, #nosotros, #contacto{
   -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
-/* boques servicios*/
+/* bloques servicios*/
 #servicios{
   .algo{ text-align: center; }
   .bloques {
@@ -169,20 +175,25 @@ nav li:hover a{
   }
 }
 
+// CONTACTO
 #contacto{
   ul.iconos-contacto{
     width: 90%;
     margin: auto;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 3%;
     li{
       display: inline-block;
       font-size: 6em;
       width: 25%;
       i{
         color: rgba(0, 0, 0, 0.85);
-        text-shadow: 0px 0px 7px #0dd;
+        text-shadow: 0px 0px 10px #0ce;
         text-decoration: none;
+      }
+      i:hover{
+        color:#06a;
+        text-shadow: 0px 0px 10px #fff;
       }
     }
   }
@@ -190,7 +201,7 @@ nav li:hover a{
   form{
     width: 20%;
     margin: auto;
-    margin-top: 3em;
+    margin-top: 6%;
     input{
         height: 2em;
         width: 100%;
@@ -204,9 +215,10 @@ nav li:hover a{
   }
 
   #direccion{
-    width: 80%;
-    margin: auto;
-    margin-top: 3em;
+    position:absolute;
+    width: 90%;
+    left:5%;
+    bottom: 15%;
     #mapa,#info{
       display: inline-block;
       margin-top: 0;
@@ -291,10 +303,65 @@ nav li:hover a{
   }
   #slider{
     position: absolute;
-    border: 2px solid white;
-    width: 99%;
+    widows: 90%;
     height: 28%;
     top: 55%;
+    left: 5%;
+
+    #carousel_inner {
+    float:left; /* important for inline positioning */
+    width:960px; /* important (this width = width of list item(including margin) * items shown */ 
+    overflow: hidden;  /* important (hide the items outside the div) */
+    /* non-important styling bellow */
+    background: (0,0,0,0.6);
+    }
+
+    #carousel_ul {
+    position:relative;
+    left:-320px; /* important (this should be negative number of list items width(including margin) */
+    list-style-type: none; /* removing the default styling for unordered list items */
+    margin: 0px;
+    padding: 0px;
+    width:9999px; /* important */
+    /* non-important styling bellow */
+    padding-bottom:10px;
+    }
+
+    #carousel_ul li{
+    float: left; /* important for inline positioning of the list items */                                    
+    width:300px;  /* fixed width, important */
+    /* just styling bellow*/
+    padding:0px;
+    height:160px;
+    background: #000000;
+    margin-top:10px;
+    margin-bottom:10px; 
+    margin-left:10px; 
+    margin-right:10px; 
+    }
+
+    #carousel_ul li img {
+    .margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+    /* styling */
+    cursor:pointer;
+    cursor: hand; 
+    border:0px;
+    width: 100%;
+    height: 100%;
+    }
+    #left_scroll, #right_scroll{
+    float:left; 
+    height:180px; 
+    width:15px; 
+    background: #C0C0C0; 
+    }
+    #left_scroll img, #right_scroll img{
+    /*styling*/
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    cursor: hand;
+    }
   }
 }
 /* nosotros */
