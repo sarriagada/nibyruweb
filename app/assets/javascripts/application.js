@@ -12,6 +12,20 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.smart3d
-//= require slider
-//= require site
+//= require analytics
+//= require jquery
+//= require modernizr
+//= require bootstrap
+//= require jquery.fitvids
+//= require jquery.easing.1.3
+//= require jquery.fancybox.pack
+//= require jquery.fancybox-thumbs
+//= require jquery.fancybox-media
+//= require stellar
+//= require nicescroll.min
+//= require jquery.isotope.min
+//= require custom
+//= require custom-home
+//= require portfolio
+//= require jquery.flexslider
+//= require retina
