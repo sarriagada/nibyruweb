@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'sqlite3'
 gem 'slim'
-gem 'font-awesome-sass-rails'
+gem 'font-awesome-rails'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
