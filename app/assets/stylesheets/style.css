@@ -700,6 +700,20 @@ a.post-entry:hover {
     list-style: none;
 }
 
+.iconos-contacto a{color:#555;}
+
+.iconos-contacto a:hover{
+    color: #444;
+    text-shadow:0px 0px 10px #8AB833;
+    transition:all 0.35s ease-in;
+}
+
+
+.iconos-contacto li{
+    font-size:100px;
+    padding: 20px;
+} 
+
 /*COLOR SWITCHER*/
 #toggle_button {
     margin:0;
