@@ -4860,6 +4860,7 @@ button.close {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .intro{left:0;}
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
@@ -4951,6 +4952,9 @@ button.close {
   .modal.fade.in {
     top: 20px;
   }
+}
+@media (max-width: 599px) {
+  .intro{bottom: 10% !important;}
 }
 @media (max-width: 480px) {
   .nav-collapse {
