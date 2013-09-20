@@ -202,7 +202,7 @@ section {
 }
 
 header {
-    background:url("space06.jpg") no-repeat fixed #020202;
+    background:url("imagen4.jpg") no-repeat fixed #020202;
     background-size: cover;
     padding-top:10px;
     text-align: center;
@@ -1870,7 +1870,7 @@ a.flink:hover {
 /*Social Header on Home Screen*/
 .social-header {
     position:absolute;
-    left:10px;
+    right:3%;
     bottom:10px;
     width:auto;
     overflow:hidden;
@@ -3089,4 +3089,7 @@ section.typography{
     color: #c2c2c2;
     font-size: 30px;
     margin: 0 10px;
+}
+#pricing .price-plan:hover .amt{
+    color: #82AD38;
 }
