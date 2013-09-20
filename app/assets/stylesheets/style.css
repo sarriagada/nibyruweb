@@ -1064,11 +1064,11 @@ html[xmlns] .slides {
 }
 
 .carousel-control.left {
-    left:1%;
+    left:2.5%;
 }
 
 .carousel-control.right {
-    right:1%;
+    right:2.5%;
 }
 
 .carousel-inner .item img {
@@ -1229,7 +1229,7 @@ html[xmlns] .slides {
 
 .testimonial p {
     padding:10px;
-    line-height:22px;
+    line-height:35px;
 }
 
 /*Shadow Box*/
@@ -3085,4 +3085,8 @@ section.typography{
     height: 24px !important;
     background-image: url("fancy-loading.gif") !important;
 }
-
+.quote{
+    color: #c2c2c2;
+    font-size: 30px;
+    margin: 0 10px;
+}
