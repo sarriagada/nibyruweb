@@ -124,14 +124,6 @@ var lastId,
     }
 });
 
-
-///////////////TWITTER 
-jQuery(document).ready(function($) {
-    $.getJSON('http://api.twitter.com/1/statuses/user_timeline/wrapbootstrap.json?count=2&amp;callback=?', function(tweets) {
-        $("#twitter").html(tz_format_twitter(tweets));
-    });
-});
-
  /*-----------------------------------------------------------------------------------*/
             /*	FANCYBOX
              /*-----------------------------------------------------------------------------------*/

@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require analytics
 //= require jquery
 //= require modernizr
 //= require bootstrap
