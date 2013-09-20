@@ -2833,7 +2833,7 @@ ul#twitter li{
     padding: 0 0 0 30px;
 }
 
-.call-to-action-link a {
+.call-to-action-link{
     text-align: center;
     padding: 1em 0;
     display: inline-block;
@@ -2845,7 +2845,7 @@ ul#twitter li{
     border-bottom: 1px solid #DDD;
     line-height: 1.2;
     background: #464646;
-    color: #999;
+    color: #c2c2c2;
     o-transition: color .12s ease-out, background .12s ease-out;
     -ms-transition: color .12s ease-out, background .12s ease-out;
     -moz-transition: color .12s ease-out, background .12s ease-out;
