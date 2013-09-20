@@ -673,7 +673,7 @@ a.post-entry:hover {
 }
 
 #contact-background {
-    background-image:url("space07.jpg");
+    background-image:url("bgcontacto.jpg");
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-color:#F0FCFF;
@@ -704,7 +704,6 @@ a.post-entry:hover {
     text-align: center;
     list-style: none;
     height: 600px;
-    margin-top: 20px;
 }
 
 .iconos-contacto a{
@@ -713,13 +712,13 @@ a.post-entry:hover {
 }
 
 .iconos-contacto li{
-    height: 20%;
-    padding-top: 20px;
+    height: 24%;
     overflow: hidden;
+    padding-top: 17px;
 }
 
 .iconos-contacto i{
-    font-size:80px;
+    font-size:85px;
     text-align: center;
 }
 
@@ -1357,7 +1356,7 @@ input[type="color"]:focus,
     color:#fff;
     font-weight:600;
     text-transform:uppercase;
-    letter-spacing:8px;
+    letter-spacing:6px;
     text-align:center;
     padding:0;
     margin:0;
@@ -1842,6 +1841,11 @@ input[type="color"]:focus,
 
 
 /*Footer Links*/
+
+footer h2{
+    line-height: 25px;
+    padding-bottom: 15px;
+}
 
 ul.footer-links {
     list-style-image:url("square.png");
@@ -2842,7 +2846,8 @@ ul#twitter li{
     border-top: 1px solid #DDDCDC;
     border-bottom: 1px solid #DDD;
     line-height: 1.2;
-    background: #fff;
+    background: #464646;
+    color: #999;
     o-transition: color .12s ease-out, background .12s ease-out;
     -ms-transition: color .12s ease-out, background .12s ease-out;
     -moz-transition: color .12s ease-out, background .12s ease-out;
@@ -2850,10 +2855,6 @@ ul#twitter li{
     transition: color .12s ease-out, background .12s ease-out;
 }
 
-.call-to-action-link a:hover {
-    background: #464646;
-    color: #999;
-}
 .call-to-action-link a span {
     display: inline-block;
     margin: 0 auto;
