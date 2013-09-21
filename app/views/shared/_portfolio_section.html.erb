@@ -1,56 +1,67 @@
-<section class="portfolio home-portfolio">
-    <div class="container" id="portfolio">
-        <div class="row">
-            <div class="span12 center">
-                <h1 class="big-heading">Portfolio</h1>
-                <h4 class="sub-heading">Mira nuestros proyectos...</h4>
-            </div>
+<section id="portfolio">
+    <div class="row">
+        <div id="portfolio-background" data-stellar-background-ratio="0.5">
+
+            <h1> <i class="icon-briefcase"></i> Portfolio </h1>
+
         </div>
-        <div class="row">
-            <div class="span12">
-                <div id="filters_container">
-                    <ul id="filters">
-                        <li><a href="#" data-filter="*" class="active">Todos</a></li>
-                        <li class="separator">/</li>
-                        <li><a href="#" data-filter=".administrable">Administrable</a></li>
-                        <li class="separator">/</li>
-                        <li><a href="#" data-filter=".no-administrable">No administrable</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>        
-        <div class="row isotope" id="portfolio-container" style="position: relative; overflow: hidden; height: 704px;">
+    </div>
+    
+    <div class="portfolio home-portfolio">    
+        <div class="container">
 
-            <div class="span3 project administrable isotope-item" style="position: absolute; left: 0px; top: 0px; -webkit-transform: translate3d(0px, 0px, 0px);">
-                <%= image_tag('cyc.png', alt: "", class: "project-img") %>
-                <span class="overlay"></span>
-                <div class="cnt">
-                    <h5>CyC Asociados</h5>
-                    <a href="<%= asset_path('cyc.png') %>" class="fancybox-media btn btn-normal" data-title-id="title-01" rel="portfolio">Ver detalles</a>
+            <!-- <div class="row">
+                <div class="span12 center">
+                    <h1 class="big-heading">Portfolio</h1>
+                    <h4 class="sub-heading">Mira nuestros proyectos...</h4>
                 </div>
-                <div id="title-01" class="info hidden">
-                    <h2>Descripción:</h2>
-                    <div class="fancybody">C&C Asociados, es un joven estudio contable de Jujuy con grandes aspiraciones.
-                    <h2>URL:</h2><a href="http://www.cycestudiocontable.com.ar">http://www.cycestudiocontable.com.ar</a>
+            </div> -->
+            <div class="row">
+                <div class="span12">
+                    <div id="filters_container">
+                        <ul id="filters">
+                            <li><a href="#" data-filter="*" class="active">Todos</a></li>
+                            <li class="separator">/</li>
+                            <li><a href="#" data-filter=".administrable">Administrable</a></li>
+                            <li class="separator">/</li>
+                            <li><a href="#" data-filter=".no-administrable">No administrable</a></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </div>        
+            <div class="row isotope" id="portfolio-container" style="position: relative; overflow: hidden; height: 704px;">
 
-            <div class="span3 project administrable isotope-item" style="position: absolute; left: 0px; top: 0px; -webkit-transform: translate3d(0px, 0px, 0px);">
-                <%= image_tag('coketas.png', alt: "", class: "project-img") %>
-                <span class="overlay"></span>
-                <div class="cnt">
-                    <h5>Coketas</h5>
-                    <a href="<%= asset_path('coketas.png') %>" class="fancybox-media btn btn-normal" data-title-id="title-02" rel="portfolio">Ver detalles</a>
-                </div>
-                <div id="title-02" class="info hidden">
-                    <h2>Descripción:</h2>
-                    <div class="fancybody">Coketas es un sitio web sobre lenceria.
-                    <h2>URL:</h2><a href="http://www.coketas-lenceria.com.ar">http://www.coketas-lenceria.com.ar</a>
+                <div class="span3 project administrable isotope-item" style="position: absolute; left: 0px; top: 0px; -webkit-transform: translate3d(0px, 0px, 0px);">
+                    <%= image_tag('cyc.png', alt: "", class: "project-img") %>
+                    <span class="overlay"></span>
+                    <div class="cnt">
+                        <h5>CyC Asociados</h5>
+                        <a href="<%= asset_path('cyc.png') %>" class="fancybox-media btn btn-normal" data-title-id="title-01" rel="portfolio">Ver detalles</a>
+                    </div>
+                    <div id="title-01" class="info hidden">
+                        <h2>Descripción:</h2>
+                        <div class="fancybody">C&C Asociados, es un joven estudio contable de Jujuy con grandes aspiraciones.
+                        <h2>URL:</h2><a href="http://www.cycestudiocontable.com.ar" target="_blank">http://www.cycestudiocontable.com.ar</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+                <div class="span3 project administrable isotope-item" style="position: absolute; left: 0px; top: 0px; -webkit-transform: translate3d(0px, 0px, 0px);">
+                    <%= image_tag('coketas.png', alt: "", class: "project-img") %>
+                    <span class="overlay"></span>
+                    <div class="cnt">
+                        <h5>Coketas</h5>
+                        <a href="<%= asset_path('coketas.png') %>" class="fancybox-media btn btn-normal" data-title-id="title-02" rel="portfolio">Ver detalles</a>
+                    </div>
+                    <div id="title-02" class="info hidden">
+                        <h2>Descripción:</h2>
+                        <div class="fancybody">Coketas es un sitio web sobre lenceria.
+                        <h2>URL:</h2><a href="http://www.coketas-lenceria.com.ar" target="_blank">http://www.coketas-lenceria.com.ar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>

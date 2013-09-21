@@ -636,9 +636,18 @@ a.post-entry:hover {
     letter-spacing:0;
 }
 
-/*Testimonials*/
-#testimonials-background {
+
+
+/*Portfolio && Testimonials*/
+#portfolio-background{
+    background-image:url("space03.jpg");
+}
+
+#testimonials-background{
     background-image:url("Outer-Space.jpg");
+}
+
+#portfolio-background, #testimonials-background {    
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-color:#F0FCFF;
@@ -647,7 +656,7 @@ a.post-entry:hover {
     background-size:cover;
 }
 
-#testimonials-background h1 {
+#portfolio-background h1, #testimonials-background h1 {
     text-align:center;
     margin:0;
     color:#fff;
@@ -1254,7 +1263,7 @@ html[xmlns] .slides {
 .sub-heading {
     font-size:18px;
     font-weight:300;
-    color:#BBBDC0;
+    color:#464646;
     text-transform:uppercase;
     text-align:center;
     letter-spacing:1px;
