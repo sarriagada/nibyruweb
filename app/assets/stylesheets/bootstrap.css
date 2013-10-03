@@ -4953,8 +4953,10 @@ button.close {
     top: 20px;
   }
 }
-@media (max-width: 599px) {
+@media (max-width: 568px) {
+  .navbar-inner{background: #050505 !important;}
   .intro{bottom: 10% !important;}
+
 }
 @media (max-width: 480px) {
   .nav-collapse {
