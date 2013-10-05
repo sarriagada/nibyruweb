@@ -5,11 +5,11 @@ require File.expand_path('../application', __FILE__)
 Nibyruweb::Application.initialize!
 
 ActionMailer::Base.smtp_settings = {
-  :user_name => ENV['SENDGRID_USERNAME'],
-  :password => ENV['SENDGRID_PASSWORD'],
-  :domain => 'nibyru.com',
-  :address => 'smtp.sendgrid.net',
-  :port => 587,
+  :address        => 'smtp.sendgrid.net',
+  :port           => '587',
   :authentication => :plain,
+  :user_name      => ENV['SENDGRID_USERNAME'],
+  :password       => ENV['SENDGRID_PASSWORD'],
+  :domain         => 'nibyru.com',
   :enable_starttls_auto => true
 }
