@@ -76,10 +76,10 @@ $("a[href^='#top']").click(function(event) {
     var trgt = parts[1];
 
     var target_offset = $("#" + trgt).offset();
-    var target_top = target_offset.top - 80;
+    var target_top = target_offset.top - 0;
     $('html, body').animate({
         scrollTop: target_top
-    }, 2500, 'easeOutBounce');
+    }, 500, 'jswing');
 });
 $("a[href^='#features']").click(function(event) {
     event.preventDefault();
@@ -91,7 +91,7 @@ $("a[href^='#features']").click(function(event) {
     var target_top = target_offset.top - 0;
     $('html, body').animate({
         scrollTop: target_top
-    }, 1000, 'easeInOutExpo');
+    }, 500, 'jswing');
 });
 
 $(".nav li a[href^='#']").click(function(event) {
@@ -104,7 +104,7 @@ $(".nav li a[href^='#']").click(function(event) {
     var target_top = target_offset.top - 0;
     $('html, body').animate({
         scrollTop: target_top
-    }, 1500, 'easeInOutExpo');
+    }, 500, 'jswing');
 });
 //
 //	
