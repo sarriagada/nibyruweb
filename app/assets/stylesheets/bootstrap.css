@@ -4843,6 +4843,10 @@ button.close {
   .hidden-phone {
     display: none !important;
   }
+
+  .iconos-contacto{height: 400px !important;}
+  .iconos-contacto li{height: 25% !important;}
+  .iconos-contacto i{font-size: 80px !important;}
 }
 .visible-print {
   display: none !important;
