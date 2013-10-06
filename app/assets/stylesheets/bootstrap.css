@@ -4851,6 +4851,9 @@ button.close {
 .visible-print {
   display: none !important;
 }
+
+.brand img{padding-left: 25px;}
+
 @media print {
   .visible-print {
     display: inherit !important;
@@ -4957,10 +4960,13 @@ button.close {
     top: 20px;
   }
 }
+
 @media (max-width: 568px) {
   .navbar-inner{background: #050505 !important;}
   .intro{bottom: 10% !important;}
-
+  #features-banner, #support-banner, #portfolio-background, #products-background, #contact-background{padding: 150px 5px !important;}
+  #features-banner h1, #support-banner h1, #portfolio-background h1, #products-background h1, #contact-background h1{ font-size: 44px !important; }
+  .support-icon{font-size: 40px !important;}
 }
 @media (max-width: 480px) {
   .nav-collapse {
@@ -5012,6 +5018,12 @@ button.close {
   .carousel-caption {
     position: static;
   }
+  #call-to-action{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .call-to-action-link{font-size: 2.5em !important;}
+  .call-to-action-link span{margin-top: 0 !important;}
 }
 @media (min-width: 768px) and (max-width: 979px) {
   .row {

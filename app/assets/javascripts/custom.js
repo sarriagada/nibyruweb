@@ -79,7 +79,7 @@ $("a[href^='#top']").click(function(event) {
     var target_top = target_offset.top - 0;
     $('html, body').animate({
         scrollTop: target_top
-    }, 500, 'jswing');
+    }, 500, 'linear');
 });
 $("a[href^='#features']").click(function(event) {
     event.preventDefault();
@@ -91,7 +91,7 @@ $("a[href^='#features']").click(function(event) {
     var target_top = target_offset.top - 0;
     $('html, body').animate({
         scrollTop: target_top
-    }, 500, 'jswing');
+    }, 500, 'linear');
 });
 
 $(".nav li a[href^='#']").click(function(event) {
@@ -104,7 +104,7 @@ $(".nav li a[href^='#']").click(function(event) {
     var target_top = target_offset.top - 0;
     $('html, body').animate({
         scrollTop: target_top
-    }, 500, 'jswing');
+    }, 500, 'linear');
 });
 //
 //	
