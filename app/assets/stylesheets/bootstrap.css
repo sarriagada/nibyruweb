@@ -4816,6 +4816,25 @@ button.close {
 .visible-desktop {
   display: inherit !important;
 }
+
+@media (min-width: 320px) and (max-width: 600px) { 
+  .project-img {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 766px) { 
+  .project-img {
+    width: auto !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 767px) {
+  .project-img {width: auto !important;}
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
   .hidden-desktop {
     display: inherit !important;
@@ -4829,11 +4848,24 @@ button.close {
   .hidden-tablet {
     display: none !important;
   }
+
+  #pricing .price-plan h2 {
+    font-size: 18px !important;
+    letter-spacing: 2px !important;
+  }
+  #pricing .price-plan .price .inside .super {
+    font-size: 18px !important;
+    top: -22px !important;
+  }
+  #pricing .price-plan .price .inside .amt {
+    font-size: 50px !important;
+  }
+
 }
 @media (max-width: 767px) {
   .hidden-desktop {
     display: inherit !important;
-  }
+  } 
   .visible-desktop {
     display: none !important;
   }

@@ -1031,7 +1031,7 @@ html[xmlns] .slides {
 .thumbnail h4 {
     padding:20px;
     margin:0;
-    font-size:32px !important;
+    font-size:30px !important;
     line-height: 30px;
     font-weight:700;
     text-transform:none;
@@ -1351,7 +1351,7 @@ input[type="color"]:focus,
 /* == Pricing Tables == */
 #pricing .price-plan {
     position:relative;
-    width:auto;
+    width:100%;
     background:rgba(31,31,31,0.71);
     border-radius:5px 5px 0 0;
     -moz-border-radius:5px 5px 0 0;
@@ -1365,7 +1365,7 @@ input[type="color"]:focus,
     color:#fff;
     font-weight:600;
     text-transform:uppercase;
-    letter-spacing:6px;
+    letter-spacing:4px;
     text-align:center;
     padding:0;
     margin:0;
@@ -1420,13 +1420,13 @@ input[type="color"]:focus,
 #pricing .price-plan .price .inside .super {
     font-size:24px;
     position:relative;
-    top:-56px;
+    top:-33px;
     left:-7px;
 }
 
 #pricing .price-plan .price .inside .amt {
     letter-spacing:-4px;
-    font-size:104px;
+    font-size:70px;
     margin-right:6px;
     font-weight:300;
     margin-left:-5px;
@@ -2604,7 +2604,7 @@ a,a:hover {
 
 .project-img{
     height: 276px;
-    width: auto!important;
+    width: auto;
     margin-left: -50%;
     max-width: none;
 }
