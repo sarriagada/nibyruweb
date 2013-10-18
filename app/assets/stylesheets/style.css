@@ -217,7 +217,7 @@ header .intro{
     position: absolute;
     bottom: 20%;
 }
-header img{width: 150px; opacity: 0.8;}
+header img{width: 150px;}
 
 .btn-landing {
     text-shadow:0 -1px 0 #6c9a15;
@@ -315,6 +315,11 @@ hr.line {
 }
 
 /*margins & paddings css for easy use*/
+.padding100 {
+    padding-top:    100px!important;
+    padding-bottom: 100px!important;
+}
+
 .margin5 {
     margin-top:5%;
     margin-bottom:5%;
