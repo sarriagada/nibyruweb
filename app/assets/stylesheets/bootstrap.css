@@ -4850,18 +4850,21 @@ button.close {
   }
 
   #pricing .price-plan h2 {
-    font-size: 18px !important;
-    letter-spacing: 2px !important;
+    font-size: 17px !important;
+    letter-spacing: 1px !important;
   }
   #pricing .price-plan .price .inside .super {
-    font-size: 18px !important;
-    top: -22px !important;
+    font-size: 13px !important;
+    top: -16px !important;
   }
   #pricing .price-plan .price .inside .amt {
-    font-size: 50px !important;
+    font-size: 37px !important;
   }
 
-}
+  #pricing .price-plan .price .inside .sub {
+    font-size: 11px !important;
+    letter-spacing: 1px !important;
+  }
 @media (max-width: 767px) {
   .hidden-desktop {
     display: inherit !important;

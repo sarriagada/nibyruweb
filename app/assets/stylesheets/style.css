@@ -1362,15 +1362,15 @@ input[type="color"]:focus,
 }
 
 #pricing .price-plan .price .inside .super {
-    font-size:15px;
+    font-size:14px;
     position:relative;
-    top:-33px;
+    top:-38px;
     left:-7px;
 }
 
 #pricing .price-plan .price .inside .amt {
     letter-spacing:-4px;
-    font-size:70px;
+    font-size:56px;
     margin-right:6px;
     font-weight:300;
     margin-left:-5px;
@@ -1378,8 +1378,8 @@ input[type="color"]:focus,
 
 #pricing .price-plan .price .inside .sub {
     text-transform:uppercase;
-    font-size:14px;
-    letter-spacing:2px;
+    font-size:13px;
+    letter-spacing:1px;
     margin-left:-5px;
 }
 
