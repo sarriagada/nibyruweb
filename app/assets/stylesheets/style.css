@@ -1309,6 +1309,7 @@ input[type="color"]:focus,
     font-weight:600;
     text-transform:uppercase;
     letter-spacing:4px;
+    word-spacing:10px;
     text-align:center;
     padding:0;
     margin:0;
@@ -1361,7 +1362,7 @@ input[type="color"]:focus,
 }
 
 #pricing .price-plan .price .inside .super {
-    font-size:24px;
+    font-size:15px;
     position:relative;
     top:-33px;
     left:-7px;
