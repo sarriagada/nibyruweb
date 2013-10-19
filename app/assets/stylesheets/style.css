@@ -712,32 +712,6 @@ a.post-entry:hover {
 
 #contact h2,#contact p{ text-align: center; }
 
-.iconos-contacto{
-    text-align: center;
-    list-style: none;
-}
-
-.iconos-contacto a{
-    color:#555;
-    transition:all 0.35s ease-in;
-}
-
-.iconos-contacto li{
-    overflow: hidden;
-    padding: 10px 0px;
-    display: inline-block;
-    width: 30%;
-}
-
-.iconos-contacto i{
-    font-size:70px;
-    text-align: center;
-}
-
-.iconos-contacto a:hover{
-    color: #82AD38;
-}
-
 /*COLOR SWITCHER*/
 #toggle_button {
     margin:0;
@@ -1823,6 +1797,8 @@ input[type="color"]:focus,
 footer h2{
     line-height: 25px;
     padding-bottom: 15px;
+    text-align: center;
+    font-size: 40px;
 }
 
 ul.footer-links {
@@ -1848,6 +1824,31 @@ a.flink:hover {
     color:#FFF;
     margin-left:5px;
 }
+
+.iconos-contacto{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+}
+
+.iconos-contacto li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.iconos-contacto i{
+    font-size:40px;
+    color:#8AB833;
+    transition:all 0.35s ease-in;
+    text-shadow: 0px 0px 5px #000
+}
+
+.iconos-contacto a:hover i{
+    color: #fff;
+}
+
 
 /*Social Header on Home Screen*/
 .social-header {
