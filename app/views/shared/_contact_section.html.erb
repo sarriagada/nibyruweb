@@ -5,39 +5,42 @@
   </div>
   <div class="container">
     <div class="row margintop20">
-      <div class="span6">
-        <h2 class="big-h2-heading"><i class="icon-envelope-alt"></i> Contáctenos</h2>
-        <p>Háganos saber lo que piensa y nos pondremos en contacto con usted a la brevedad.</p>
-        <%= form_for Contact.new, url: contact_path, html: {class: "form-main"} do |f|%>
-          <fieldset>
+      <h2 class="big-h2-heading"><i class="icon-envelope-alt"></i> Contáctenos</h2>
+      <p>Háganos saber lo que piensa y nos pondremos en contacto con usted a la brevedad.</p>
+      <%= form_for Contact.new, url: contact_path, html: {class: "form-main"} do |f|%>
+        <fieldset>
+          
+          <div class="span5 offset1">
             <div class="clearfix">
-              <label><span>Nombre:</span></label>
               <div class="input">
-                <%= f.text_field :name, class: "input-xlarge", required: true %>
+                <%= f.text_field :name, placeholder:"Nombre", class: "input-xlarge", required: true %>
               </div>
             </div>
+          </div>
 
+          <div class="span5">
             <div class="clearfix">
-              <label for="email"><span>Email:</span></label>
               <div class="input">
-                <%= f.text_field :email, class: "input-xlarge", required: true %>
+                <%= f.text_field :email, placeholder:"Email", class: "input-xlarge", required: true %>
               </div>
             </div>
+          </div>
 
+          <div class="span10 offset1">
             <div class="clearfix">
-              <label for="message"><span>Mensaje:</span></label>
               <div class="input">
-                <%= f.text_area :message, size: "7x20", class: "input-xlarge", required: true %>
+                <%= f.text_area :message, placeholder:"Mensaje", size: "7x20", class: "input-xlarge", required: true %>
               </div>
             </div>
-
             <div class="actions">
               <button tabindex="3" type="submit" class="btn btn-landing ">Enviar</button>
             </div>
-          </fieldset>
-        <% end %>
-      </div>
-      <div class="span5 offset1">
+          </div>
+
+        </fieldset>
+      <% end %>
+
+      <div class="span6 offset3">
         <ul class="iconos-contacto">
           <li>
             <a href="https://www.facebook.com/" target="_blank">

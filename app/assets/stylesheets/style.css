@@ -705,10 +705,11 @@ a.post-entry:hover {
     letter-spacing:0;
 }
 
+#contact h2,#contact p{ text-align: center; }
+
 .iconos-contacto{
     text-align: center;
     list-style: none;
-    height: 600px;
 }
 
 .iconos-contacto a{
@@ -717,57 +718,20 @@ a.post-entry:hover {
 }
 
 .iconos-contacto li{
-    height: 33%;
     overflow: hidden;
-    padding-top: 25px;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 30%;
 }
 
 .iconos-contacto i{
-    font-size:95px;
+    font-size:70px;
     text-align: center;
 }
 
-.iconos-contacto h4{
-    font-size: 28px;
-    color: #8AB833;
-    text-shadow:0px 0px 5px #000;
-    display: none;
-    -webkit-animation: cssAnimation 0.4s ease;
-    -moz-animation: cssAnimation 0.4s ease;
-    -o-animation: cssAnimation 0.4s ease;
-    -ms-animation: cssAnimation 0.4s ease;
-}
-
 .iconos-contacto a:hover{
-    color: #353535;
-    text-shadow:0px 0px 20px #8AB833;
+    color: #82AD38;
 }
-
-.iconos-contacto a:hover h4{
-    display: block;
-}
-
-@-webkit-keyframes cssAnimation {
-    from { -webkit-transform:scale(0) rotate(-180deg); }
-    to { -webkit-transform:scale(1) rotate(0deg); }
-}
-
-@-moz-keyframes cssAnimation {
-    from { -webkit-transform:scale(0) rotate(-180deg); }
-    to { -webkit-transform:scale(1) rotate(0deg); }
-}
-
-@-o-keyframes cssAnimation {
-    from { -webkit-transform:scale(0) rotate(-180deg); }
-    to { -webkit-transform:scale(1) rotate(0deg); }
-}
-
-@-ms-keyframes cssAnimation {
-    from { -webkit-transform:scale(0) rotate(-180deg); }
-    to { -webkit-transform:scale(1) rotate(0deg); }
-}
-
-
 
 /*COLOR SWITCHER*/
 #toggle_button {
