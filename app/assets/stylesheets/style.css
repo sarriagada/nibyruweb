@@ -320,6 +320,8 @@ hr.line {
     padding-bottom: 100px!important;
 }
 
+.paddingtop250 { padding-top: 250px!important; }
+
 .margin5 {
     margin-top:5%;
     margin-bottom:5%;
@@ -2093,6 +2095,59 @@ a,a:hover {
     border-bottom:1px solid #DDD;
     border-top:1px solid #DDDCDC;
 }
+
+.rule {
+position: relative;
+margin: auto;
+height: 1em;
+background: #EEE;
+display: block;
+border-radius: 1em;
+}
+
+.icon-stack{
+    height: auto; width: 19%;
+    position: relative;
+    top: -5em;
+}
+
+.icon-stack:hover p {
+    color: #333;
+}
+
+.icon-stack h3 {
+    position: relative;
+    top: 4em;
+    text-align: center;
+}
+
+.icon-stack.down {
+    top: -1.7em;
+}
+
+.icon-stack.down h3 {
+    top: -3em;
+}
+
+.icon-stack p {
+    position: relative;
+    top: 7em;
+    text-align: center;
+    color: #AAA;
+}
+
+.icon-stack.down p {
+top: -15.5em;
+}
+
+.point{
+    color: #8AB833;
+    font-size: 5em!important;
+    line-height: 1em!important;
+}
+
+.icon-circle{ font-size: 8.5em!important; }
+
 
 .feature-page.rev {
     border-top:1px solid #FFFDFD;
