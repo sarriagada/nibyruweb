@@ -217,7 +217,7 @@ header .intro{
     position: absolute;
     bottom: 20%;
 }
-header img{width: 150px; opacity: 0.8;}
+header img{width: 150px;}
 
 .btn-landing {
     text-shadow:0 -1px 0 #6c9a15;
@@ -315,6 +315,11 @@ hr.line {
 }
 
 /*margins & paddings css for easy use*/
+.padding100 {
+    padding-top:    100px!important;
+    padding-bottom: 100px!important;
+}
+
 .margin5 {
     margin-top:5%;
     margin-bottom:5%;
@@ -536,7 +541,7 @@ a.post-entry:hover {
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-color:#F0FCFF;
-    padding:150px 0;
+    padding:100px 0;
     text-shadow:1px 1px 1px #000;
     background-size:cover;
 }
@@ -566,7 +571,7 @@ a.post-entry:hover {
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-color:#F0FCFF;
-    padding:150px 0;
+    padding:100px 0;
     text-shadow:1px 1px 1px #000;
     background-size:cover;
 }
@@ -576,7 +581,7 @@ a.post-entry:hover {
     margin:0;
     color:#fff;
     font-size:65px;
-    line-height:1;
+    line-height:1.2;
     letter-spacing:-3px;
 }
 
@@ -649,7 +654,7 @@ a.post-entry:hover {
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-color:#F0FCFF;
-    padding:150px 0;
+    padding:100px 0;
     text-shadow:1px 1px 1px #000;
     background-size:cover;
 }
@@ -682,7 +687,7 @@ a.post-entry:hover {
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-color:#F0FCFF;
-    padding:150px 0;
+    padding:100px 0;
     text-shadow:1px 1px 1px #000;
     background-size:cover;
 }
@@ -2816,8 +2821,6 @@ ul#twitter li{
     font-weight: 100;
     width: 100%;
     margin: 0;
-    border-top: 1px solid #DDDCDC;
-    border-bottom: 1px solid #DDD;
     line-height: 1.2;
     background: #464646;
     color: #c2c2c2;
