@@ -596,16 +596,16 @@ a.post-entry:hover {
     letter-spacing:0;
 }
 
+#support .thumbnails {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
 #support .thumbnail {
     border:0;
     padding:0;
     margin-bottom:0px;
     text-align:center;
-}
-
-#support .thumbnail:hover {
-    margin-top:-15px;
-    /*    margin-top:-30px;*/
 }
 
 #support.thumbnail h4 {
@@ -1306,12 +1306,11 @@ input[type="color"]:focus,
 }
 
 #pricing .price-plan h2 {
-    font-size:18px;
+    font-size:19px;
     color:#fff;
     font-weight:600;
     text-transform:uppercase;
-    letter-spacing:4px;
-    word-spacing:10px;
+    letter-spacing:1px;
     text-align:center;
     padding:0;
     margin:0;
@@ -1359,15 +1358,15 @@ input[type="color"]:focus,
 #pricing .price-plan .price .inside {
     font-weight:300;
     text-align:center;
-    line-height:100px;
-    height:100px;
+    line-height:80px;
+    height:80px;
 }
 
 #pricing .price-plan .price .inside .super {
     font-size:14px;
     position:relative;
-    top:-38px;
-    left:-7px;
+    top:-29px;
+    left:-5px;
 }
 
 #pricing .price-plan .price .inside .amt {
@@ -1375,14 +1374,14 @@ input[type="color"]:focus,
     font-size:56px;
     margin-right:6px;
     font-weight:300;
-    margin-left:-5px;
+    margin-left:-3px;
 }
 
 #pricing .price-plan .price .inside .sub {
     text-transform:uppercase;
     font-size:13px;
     letter-spacing:1px;
-    margin-left:-5px;
+    margin-left:-3px;
 }
 
 #pricing .price-plan .most-popular {
@@ -1431,11 +1430,11 @@ input[type="color"]:focus,
 
 #pricing .price-plan .info ul li {
     font-size:14px;
-    line-height:50px;
+    line-height:25px;
     color:#696969;
     background:#fff;
     border-bottom:solid 1px #e9e9e9;
-    padding-left:10px;
+    padding:15px 10px;
     text-align:left;
 }
 
@@ -1479,14 +1478,6 @@ input[type="color"]:focus,
 #pricing .price-plan .info ul li.signup a:hover {
     color:#fff;
     text-decoration:none;
-}
-
-#pricing .price-plan .info ul li:first-child {
-    padding-top:10px;
-}
-
-#pricing .price-plan .info ul li:last-child {
-    padding-bottom:0;
 }
 
 #pricing .price-plan .bold {
