@@ -61,7 +61,12 @@ $(document).ready(function() {
 
 //////// NICE SCROLL JS
     $(function() {
-        $("html").niceScroll({horizrailenabled:false});
+        $("html").niceScroll({
+            horizrailenabled:false,
+            cursoropacitymin: 0.5,
+            touchbehavior: true,
+            cursorwidth: 7
+        });
     });
 
 

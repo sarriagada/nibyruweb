@@ -195,6 +195,7 @@
     .navbar img{width: 200px; height: auto;}
     header{padding-top: 75px;}
     .navbar .brand{padding: 10px;}
+    .icon-stack{ width: 100%!important; }
 }
 
 iframe, object, embed{max-width: 100%;}
