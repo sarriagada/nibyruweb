@@ -2103,7 +2103,7 @@ border-radius: 1em;
 .icon-stack{
     height: auto; width: 19%;
     position: relative;
-    top: -5em;
+    top: -1.5em;
 }
 
 .icon-stack:hover p {
@@ -2112,36 +2112,32 @@ border-radius: 1em;
 
 .icon-stack h3 {
     position: relative;
-    top: 4em;
     text-align: center;
+    top: 3em;
 }
 
 .icon-stack.down {
-    top: -1.7em;
 }
 
 .icon-stack.down h3 {
-    top: -3em;
 }
 
 .icon-stack p {
     position: relative;
-    top: 7em;
     text-align: center;
     color: #AAA;
+    top: 5em;
 }
 
 .icon-stack.down p {
-top: -17.5em;
 }
 
 .point{
     color: #8AB833;
     font-size: 5em!important;
-    line-height: 1em!important;
 }
 
-.icon-circle{ font-size: 8.5em!important; }
+.icon-sign-blank{ font-size: 8.5em!important; }
 
 
 .feature-page.rev {
