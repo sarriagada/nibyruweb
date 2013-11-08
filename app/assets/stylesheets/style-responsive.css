@@ -13,7 +13,25 @@
 }
 
 /* Portrait tablet to landscape and desktop */
-@media (max-width: 979px) and (min-width: 768px) { 
+
+@media (max-width: 979px) {
+    .steps{ padding: 70px 0px 0px 0px !important; } 
+    .rule{display: none !important;}
+    .icon-stack {
+    width: 180px !important;
+    height: 300px !important;
+    top: 0 !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+    margin-bottom: 20px !important;
+    }
+    .icon-stack h3, .icon-stack .down h3 { top: 3.5em !important; }
+    .icon-stack p, .icon-stack .down p { top: 6em !important; }
+    .icon-stack.down { top: 0 !important; }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) { 
     .navbar-fixed-top{margin-bottom: 0px;}
 
     h2{
@@ -48,6 +66,24 @@
     .btn{height: 44px;}
     header{padding-top: 50px;}
     #navigation .nav.page li.active:after{display: none;}
+
+    #pricing .price-plan h2 {
+      font-size: 18px !important;
+    }
+    #pricing .price-plan .price .inside .super {
+      font-size: 13px !important;
+      top: -23px !important;
+    }
+    #pricing .price-plan .price .inside .amt {
+      font-size: 44px !important;
+    }
+
+    #pricing .price-plan .price .inside .sub {
+      font-size: 11px !important;
+      letter-spacing: 0px !important;
+    }
+
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -108,6 +144,10 @@
 
     #navigation .nav.page li.active:after{display: none;}
     .navbar .brand{padding: 10px;}
+
+    .iconos-footer{
+        margin-top: 50px !important;
+    }
 }
 
 

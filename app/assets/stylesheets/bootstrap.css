@@ -4865,6 +4865,9 @@ button.close {
     font-size: 11px !important;
     letter-spacing: 1px !important;
   }
+
+}
+
 @media (max-width: 767px) {
   .hidden-desktop {
     display: inherit !important;
@@ -4879,9 +4882,6 @@ button.close {
     display: none !important;
   }
 
-  .iconos-contacto{height: 400px !important;}
-  .iconos-contacto li{height: 25% !important;}
-  .iconos-contacto i{font-size: 80px !important;}
 }
 .visible-print {
   display: none !important;
@@ -4999,7 +4999,7 @@ button.close {
 @media (max-width: 568px) {
   .navbar-inner{background: #050505 !important;}
   .intro{bottom: 10% !important;}
-  #features-banner, #support-banner, #portfolio-background, #products-background, #contact-background{padding: 150px 5px !important;}
+  #features-banner, #support-banner, #portfolio-background, #products-background, #contact-background{padding: 100px 5px !important;}
   #features-banner h1, #support-banner h1, #portfolio-background h1, #products-background h1, #contact-background h1{ font-size: 44px !important; }
   .support-icon{font-size: 40px !important;}
 }
