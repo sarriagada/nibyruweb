@@ -17,18 +17,17 @@
 @media (max-width: 979px) {
     .steps{ padding: 70px 0px 0px 0px !important; } 
     .rule{display: none !important;}
-    .icon-stack {
+    .icon-caracteristicas {
     width: 180px !important;
-    height: 300px !important;
-    top: 0 !important;
     margin-left: 3% !important;
     margin-right: 3% !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 40px !important;
     }
-    .icon-stack h3, .icon-stack .down h3 { top: 3.5em !important; }
-    .icon-stack p, .icon-stack .down p { top: 6em !important; }
-    .icon-stack.down { top: 0 !important; }
+}
 
+@media (min-width: 768px) and (max-width: 1200px) {
+    #contact input { width: 97.5%; }
+    #contact textarea { width: 99%; }
 }
 
 @media (min-width: 768px) and (max-width: 979px) { 
@@ -145,9 +144,11 @@
     #navigation .nav.page li.active:after{display: none;}
     .navbar .brand{padding: 10px;}
 
-    .iconos-footer{
-        margin-top: 50px !important;
-    }
+    #contact fieldset{ margin-top: 25px;}
+    #contact input{ height: 40px;}
+
+    #footer h2{padding-top: 40px; text-align: left;}
+    #footer .iconos-contacto{text-align: left;}
 }
 
 

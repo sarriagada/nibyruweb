@@ -64,11 +64,10 @@ $(document).ready(function() {
         $("html").niceScroll({
             horizrailenabled:false,
             cursoropacitymin: 0.5,
-            touchbehavior: true,
+            touchbehavior: false,
             cursorwidth: 7
         });
     });
-
 
 
 });

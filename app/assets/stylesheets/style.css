@@ -684,6 +684,8 @@ a.post-entry:hover {
     background:#3B3B3B;
 }
 
+#contact input, #contact textarea { margin-top: 0px;}
+
 #contact-background {
     background-image:url("bg-contacto.jpg");
     background-repeat:no-repeat;
@@ -2092,44 +2094,46 @@ a,a:hover {
 }
 
 .rule {
-position: relative;
-margin: auto;
-height: 1em;
-background: #EEE;
-display: block;
-border-radius: 1em;
-}
-
-.icon-stack{
-    height: auto; width: 19%;
     position: relative;
-    top: -1.5em;
+    top: 17px;
+    margin: auto;
+    height: 1em;
+    background: #DDD;
+    display: block;
+    border-radius: 1em;
 }
 
-.icon-stack:hover p {
+.icon-caracteristicas{
+    height: auto;
+    width: 18%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+
+.icon-caracteristicas:hover p {
     color: #333;
 }
 
-.icon-stack h3 {
-    position: relative;
+.icon-caracteristicas i{
+    font-size: 5em;
+    background: #000;
+    padding:12px 20px;
+    color: #82AD38;
+    border-radius: 25px;
+}
+
+.icon-caracteristicas h3{
     text-align: center;
-    top: 3em;
+    margin-top: 20px;
 }
 
-.icon-stack.down {
-}
-
-.icon-stack.down h3 {
-}
-
-.icon-stack p {
-    position: relative;
-    text-align: center;
+.icon-caracteristicas p {
     color: #AAA;
-    top: 5em;
-}
-
-.icon-stack.down p {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .point{
